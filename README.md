@@ -1,5 +1,5 @@
 # Blog-Website
-Simple Blog website with laravel
+Laravel website 
 
 #Website features
 - Read articles about any topic in the website
@@ -15,3 +15,9 @@ Simple Blog website with laravel
 #Admin credentials : 
 - Email : keltaweel25@gmail.com
 - Pass  : 0000000000
+
+#Technologies :
+- Laravel 8
+- Bootstrap 
+- Css3
+- HTML5
