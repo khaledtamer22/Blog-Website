@@ -97,7 +97,7 @@ class adminController extends Controller
                     $path = $req->file('file')->store('/',['disk'=>'my_disk']);
 
                     $data['title'] = $req->input('title');
-                    $data['category_id'] = 5;
+                    $data['category_id'] = $req->input('category_id');
                     $data['image'] = $path;
                     $data['content'] = $new_content;
                     $data['created_at'] = date("Y-m-d H:i:s");
